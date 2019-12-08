@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>モンスターを俺にプレゼントしちゃう奴</title>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.5.2/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.5.2/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/7.5.2/firebase-functions.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script defer src="./js/index.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="hero is-medium is-success is-bold">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            モンスターを俺にプレゼントしちゃう奴～
+          </h1>
+          <h2 class="subtitle">
+            今までプレゼントされたモンスターの数
+            <strong class="receivedMonster"></strong>本!
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section is-medium">
+      <div class="container has-text-centered">
+        <button class="button is-large is-success go-present">あげる</button>
+        <button class="button is-large is-danger no-present">あげない</button>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container has-text-centered">
+        <p class="is-size-2 result"></p>
+      </div>
+    </section>
+  </body>
+</html>
