@@ -3,7 +3,7 @@ const db = firebase.firestore();
 // コレクション名
 const presents = db.collection('');//作ったコレクションの名前
 // function の関数名
-const countUp= firebase.functions().httpsCallable('countUp');
+const countUp= firebase.functions().httpsCallable('countUP');
 
 // index.htmlのクラス
 const receivedMonster=document.querySelector('.receivedMonster');
