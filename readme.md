@@ -1,10 +1,10 @@
 # モンスターを俺にプレゼントしちゃう奴(functionの練習的な)
 
-デモ [モンスターを俺にプレゼントしちゃう奴](https://studygroup-17c60.firebaseapp.com/)
+デモ：[モンスターを俺にプレゼントしちゃう奴](https://studygroup-17c60.firebaseapp.com/)
+
 ↑は1時間に1回しかプレゼントできないようにしてます。
 
 プロジェクトが作られている前提
-functionの練習のため、JavaScriptに関するところは省く
 
 1. ```firebase use プロジェクトのid```
 
